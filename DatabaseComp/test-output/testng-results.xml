@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: add]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Add A Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[By.id: name Text Enter - Piyush_2016-nov.-24 13_56_06]]>
+    </line>
+    <line>
+      <![CDATA[By.id: introduced Text Enter - 2016-01-13]]>
+    </line>
+    <line>
+      <![CDATA[By.id: discontinued Text Enter - 2016-12-13]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer Piyush_2016-nov.-24 13_56_06 has been created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_06]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_06]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Edit Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Delete this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer has been deleted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: add]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Add A Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[By.id: name Text Enter - Piyush_2016-nov.-24 13_56_10]]>
+    </line>
+    <line>
+      <![CDATA[By.id: introduced Text Enter - 2016-01-13]]>
+    </line>
+    <line>
+      <![CDATA[By.id: discontinued Text Enter - 2016-12-13]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer Piyush_2016-nov.-24 13_56_10 has been created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_10]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_10]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Edit Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[Company Name - Piyush_2016-nov.-24 13_56_10]]>
+    </line>
+    <line>
+      <![CDATA[Introduced Date - 2016-01-13]]>
+    </line>
+    <line>
+      <![CDATA[Discontinued Date - 2016-12-13]]>
+    </line>
+    <line>
+      <![CDATA[Company Selected - IBM]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Delete this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer has been deleted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: add]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Add A Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_13]]>
+    </line>
+    <line>
+      <![CDATA[By.id: introduced Text Enter - 2014-02-16]]>
+    </line>
+    <line>
+      <![CDATA[By.id: discontinued Text Enter - 2016-11-18]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer PiyushUpdate_2016-nov.-24 13_56_13 has been created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage]]>
+    </line>
+    <line>
+      <![CDATA[By.id: searchbox Text Enter - PiyushUpdate_2016-nov.-24 13_56_13]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.linkText: PiyushUpdate_2016-nov.-24 13_56_13]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Edit Computer Page]]>
+    </line>
+    <line>
+      <![CDATA[By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_16]]>
+    </line>
+    <line>
+      <![CDATA[By.id: introduced Text Enter - 2014-02-16]]>
+    </line>
+    <line>
+      <![CDATA[By.id: discontinued Text Enter - 2016-11-18]]>
+    </line>
+    <line>
+      <![CDATA[Click on WebElement - By.xpath: //input[@value='Save this computer']]]>
+    </line>
+    <line>
+      <![CDATA[Done! Computer PiyushUpdate_2016-nov.-24 13_56_16 has been updated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27041" started-at="2016-11-24T12:55:58Z" finished-at="2016-11-24T12:56:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27041" started-at="2016-11-24T12:55:58Z" finished-at="2016-11-24T12:56:25Z">
+      <class name="com.databaseComputer.DatabaseComp.suites.ComputerTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="initTest" is-config="true" duration-ms="7132" started-at="2016-11-24T13:55:58Z" finished-at="2016-11-24T13:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="addANewCompTest()[pri:1, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="addANewCompTest" duration-ms="2917" started-at="2016-11-24T13:56:05Z" finished-at="2016-11-24T13:56:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: add]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Add A Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[By.id: name Text Enter - Piyush_2016-nov.-24 13_56_06]]>
+            </line>
+            <line>
+              <![CDATA[By.id: introduced Text Enter - 2016-01-13]]>
+            </line>
+            <line>
+              <![CDATA[By.id: discontinued Text Enter - 2016-12-13]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer Piyush_2016-nov.-24 13_56_06 has been created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addANewCompTest -->
+        <test-method status="PASS" signature="deleteComputer()[pri:2, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="deleteComputer" duration-ms="1504" started-at="2016-11-24T13:56:08Z" finished-at="2016-11-24T13:56:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_06]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_06]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Edit Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Delete this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer has been deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="readAndDeleteComputer()[pri:3, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="readAndDeleteComputer" duration-ms="3582" started-at="2016-11-24T13:56:09Z" finished-at="2016-11-24T13:56:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: add]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Add A Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[By.id: name Text Enter - Piyush_2016-nov.-24 13_56_10]]>
+            </line>
+            <line>
+              <![CDATA[By.id: introduced Text Enter - 2016-01-13]]>
+            </line>
+            <line>
+              <![CDATA[By.id: discontinued Text Enter - 2016-12-13]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer Piyush_2016-nov.-24 13_56_10 has been created]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_10]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_10]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Edit Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[Company Name - Piyush_2016-nov.-24 13_56_10]]>
+            </line>
+            <line>
+              <![CDATA[Introduced Date - 2016-01-13]]>
+            </line>
+            <line>
+              <![CDATA[Discontinued Date - 2016-12-13]]>
+            </line>
+            <line>
+              <![CDATA[Company Selected - IBM]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Delete this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer has been deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readAndDeleteComputer -->
+        <test-method status="PASS" signature="createAndUpdateComputer()[pri:4, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="createAndUpdateComputer" duration-ms="9922" started-at="2016-11-24T13:56:13Z" finished-at="2016-11-24T13:56:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: add]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Add A Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_13]]>
+            </line>
+            <line>
+              <![CDATA[By.id: introduced Text Enter - 2014-02-16]]>
+            </line>
+            <line>
+              <![CDATA[By.id: discontinued Text Enter - 2016-11-18]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Create this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer PiyushUpdate_2016-nov.-24 13_56_13 has been created]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Homepage]]>
+            </line>
+            <line>
+              <![CDATA[By.id: searchbox Text Enter - PiyushUpdate_2016-nov.-24 13_56_13]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.id: searchsubmit]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.linkText: PiyushUpdate_2016-nov.-24 13_56_13]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Edit Computer Page]]>
+            </line>
+            <line>
+              <![CDATA[By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_16]]>
+            </line>
+            <line>
+              <![CDATA[By.id: introduced Text Enter - 2014-02-16]]>
+            </line>
+            <line>
+              <![CDATA[By.id: discontinued Text Enter - 2016-11-18]]>
+            </line>
+            <line>
+              <![CDATA[Click on WebElement - By.xpath: //input[@value='Save this computer']]]>
+            </line>
+            <line>
+              <![CDATA[Done! Computer PiyushUpdate_2016-nov.-24 13_56_16 has been updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndUpdateComputer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="1951" started-at="2016-11-24T13:56:23Z" finished-at="2016-11-24T13:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.databaseComputer.DatabaseComp.suites.ComputerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [MyArtifactSuite]" parallel="methods">
+  <test name="AllSuites(failed)" parallel="methods">
+    <classes>
+      <class name="com.databaseComputer.DatabaseComp.suites.ComputerTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="addANewCompTest"/>
+        </methods>
+      </class> <!-- com.databaseComputer.DatabaseComp.suites.ComputerTest -->
+    </classes>
+  </test> <!-- AllSuites(failed) -->
+</suite> <!-- Failed suite [MyArtifactSuite] -->

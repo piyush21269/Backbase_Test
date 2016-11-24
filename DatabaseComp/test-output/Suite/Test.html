@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 24 13:55:58 CET 2016</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27041 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.databaseComputer.DatabaseComp.suites.ComputerTest.addANewCompTest()'><b>addANewCompTest</b><br>Test class: com.databaseComputer.DatabaseComp.suites.ComputerTest<br/>
+<a href="#Output-1704237553" onClick='toggleBox("Output-1704237553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704237553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704237553">
+Navigated to Homepage<br/>
+Click on WebElement - By.id: add<br/>
+Navigated to Add A Computer Page<br/>
+By.id: name Text Enter - Piyush_2016-nov.-24 13_56_06<br/>
+By.id: introduced Text Enter - 2016-01-13<br/>
+By.id: discontinued Text Enter - 2016-12-13<br/>
+Click on WebElement - By.xpath: //input[@value='Create this computer']<br/>
+Done! Computer Piyush_2016-nov.-24 13_56_06 has been created<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5</td></tr>
+<tr>
+<td title='com.databaseComputer.DatabaseComp.suites.ComputerTest.createAndUpdateComputer()'><b>createAndUpdateComputer</b><br>Test class: com.databaseComputer.DatabaseComp.suites.ComputerTest<br/>
+<a href="#Output-384515747" onClick='toggleBox("Output-384515747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384515747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384515747">
+Navigated to Homepage<br/>
+Click on WebElement - By.id: add<br/>
+Navigated to Add A Computer Page<br/>
+By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_13<br/>
+By.id: introduced Text Enter - 2014-02-16<br/>
+By.id: discontinued Text Enter - 2016-11-18<br/>
+Click on WebElement - By.xpath: //input[@value='Create this computer']<br/>
+Done! Computer PiyushUpdate_2016-nov.-24 13_56_13 has been created<br/>
+Navigated to Homepage<br/>
+By.id: searchbox Text Enter - PiyushUpdate_2016-nov.-24 13_56_13<br/>
+Click on WebElement - By.id: searchsubmit<br/>
+Click on WebElement - By.linkText: PiyushUpdate_2016-nov.-24 13_56_13<br/>
+Navigated to Edit Computer Page<br/>
+By.id: name Text Enter - PiyushUpdate_2016-nov.-24 13_56_16<br/>
+By.id: introduced Text Enter - 2014-02-16<br/>
+By.id: discontinued Text Enter - 2016-11-18<br/>
+Click on WebElement - By.xpath: //input[@value='Save this computer']<br/>
+Done! Computer PiyushUpdate_2016-nov.-24 13_56_16 has been updated<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5</td></tr>
+<tr>
+<td title='com.databaseComputer.DatabaseComp.suites.ComputerTest.deleteComputer()'><b>deleteComputer</b><br>Test class: com.databaseComputer.DatabaseComp.suites.ComputerTest<br/>
+<a href="#Output-664070838" onClick='toggleBox("Output-664070838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-664070838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-664070838">
+Navigated to Homepage<br/>
+By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_06<br/>
+Click on WebElement - By.id: searchsubmit<br/>
+Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_06<br/>
+Navigated to Edit Computer Page<br/>
+Click on WebElement - By.xpath: //input[@value='Delete this computer']<br/>
+Done! Computer has been deleted<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5</td></tr>
+<tr>
+<td title='com.databaseComputer.DatabaseComp.suites.ComputerTest.readAndDeleteComputer()'><b>readAndDeleteComputer</b><br>Test class: com.databaseComputer.DatabaseComp.suites.ComputerTest<br/>
+<a href="#Output-707157673" onClick='toggleBox("Output-707157673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-707157673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-707157673">
+Navigated to Homepage<br/>
+Click on WebElement - By.id: add<br/>
+Navigated to Add A Computer Page<br/>
+By.id: name Text Enter - Piyush_2016-nov.-24 13_56_10<br/>
+By.id: introduced Text Enter - 2016-01-13<br/>
+By.id: discontinued Text Enter - 2016-12-13<br/>
+Click on WebElement - By.xpath: //input[@value='Create this computer']<br/>
+Done! Computer Piyush_2016-nov.-24 13_56_10 has been created<br/>
+Navigated to Homepage<br/>
+By.id: searchbox Text Enter - Piyush_2016-nov.-24 13_56_10<br/>
+Click on WebElement - By.id: searchsubmit<br/>
+Click on WebElement - By.linkText: Piyush_2016-nov.-24 13_56_10<br/>
+Navigated to Edit Computer Page<br/>
+Company Name - Piyush_2016-nov.-24 13_56_10<br/>
+Introduced Date - 2016-01-13<br/>
+Discontinued Date - 2016-12-13<br/>
+Company Selected - IBM<br/>
+Click on WebElement - By.xpath: //input[@value='Delete this computer']<br/>
+Done! Computer has been deleted<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.databaseComputer.DatabaseComp.suites.ComputerTest@5f2108b5</td></tr>
+</table><p>
+</body>
+</html>
